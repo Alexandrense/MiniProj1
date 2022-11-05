@@ -1,5 +1,10 @@
 # pwa_cv_spa
 
+Mestrado em Engenharia Informática e Tecnologia Web
+Programação Web Avançada 2022
+Tarefa 2.2: Miniprojeto: Single Page Application (SPA)
+Alexandre Carvalho
+
 ## Project setup
 ```
 npm install

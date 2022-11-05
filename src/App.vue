@@ -1,9 +1,5 @@
 <template>
   <app-header />
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
   <router-view/>
   <app-footer />
 </template>
@@ -31,7 +27,7 @@ export default {
 
 header {
   display: flex;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px dotted #ccc;
   padding: .5rem 1rem;
 
   p {
@@ -44,6 +40,7 @@ header {
 footer {
   position: absolute;
   border-top: 1px solid #ccc;
+  background-color: #37423d;
   bottom: 0;
   width: 100%;
   height: 65px;
@@ -83,6 +80,16 @@ nav {
     &.router-link-exact-active {
       color: #42b983;
     }
+  }
+}
+
+.about, .work, .hobbies {
+  p {
+    text-align: justify;
+  }
+  p, h2, h3 {
+    margin-left:20px;
+    margin-right:20px;
   }
 }
 </style>

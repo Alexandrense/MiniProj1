@@ -1,17 +1,7 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Seja bem vindo</h1>
+    <p>Esta é a minha Web Page de Curriculo Vitae SPA em VueJS </p>
+    <p>Contacto: <a href="mailto:alexbh@gmail.com">alexbh@gmail.com</a></p>
   </div>
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
-</script>
