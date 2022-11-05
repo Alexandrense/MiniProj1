@@ -1,6 +1,6 @@
 <template>
   <div class="work">
-    <h1>O que eu faço</h1>
+    <h1>O que eu faço?</h1>
     <h2>Software Engineer / Development Team Product Manager</h2>
     <h2>Trustly</h2>
     <h3>De maio de 2020 até o momento</h3>

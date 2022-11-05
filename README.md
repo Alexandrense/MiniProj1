@@ -1,4 +1,4 @@
-# pwa_cv_spa
+# MiniProj1
 
 Mestrado em Engenharia Informática e Tecnologia Web
 
